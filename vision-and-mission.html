@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vision and Mission</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        /* Full screen image container */
+        .fullscreen-image {
+            width: 100%;
+            height: 100%;
+        }
+
+        /* Image styling */
+        .fullscreen-image img {
+            width: 100%;
+            height: 100%;
+            padding-top: 50px;
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .fullscreen-image img {
+                object-fit: cover;
+            }
+        }
+
+        /* Optional: Add overlay text */
+        .image-overlay {
+            position: absolute;
+            bottom: 20px;
+            left: 0;
+            right: 0;
+            text-align: center;
+            color: white;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 10px;
+        }
+
+        /* Optional: Add overlay text 2 */
+        .text-overlay {
+            position: absolute;
+            top: 20px;
+            left: 0;
+            right: 0;
+            text-align: left;
+            padding: 50px 150px;
+        }
+
+        /* Back button */
+        .back-button {
+            position: absolute;
+            top: 20px;
+            left: 5px;
+            z-index: 10;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="menubar">
+        <nav class="navbar navbar-expand-xl fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <i class="fas fa-bolt me-2"></i>ฝ่ายบริหารโครงการ
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0 gap-3 gap-xl-3">
+                        <li class="nav-item activity-menu" style="position: relative;">
+                            <a class="nav-link" href="#">
+                                <i class="fas fa-sitemap me-1"></i>โครงสร้าง ฝบค.
+                            </a>
+                            <div class="activity-submenu">
+                                <a href="vision-and-mission.html">วิสัยทัศน์และภาระกิจ</a>
+                                <a href="executives.html">ประวัติและความเป็นมา</a>
+                                <a
+                                    href="https://smartoffice.mea.or.th/org-chart?uuid=A814ED5C-1AF2-4257-BAFC-916417C80F53">คณะผู้บริหาร</a>
+                                <a
+                                    href="https://smartoffice.mea.or.th/org-chart?uuid=A814ED5C-1AF2-4257-BAFC-916417C80F54">แผนกบริหารทั่วไป</a>
+                                <a
+                                    href="https://smartoffice.mea.or.th/org-chart?uuid=A814ED5C-1AF2-4257-BAFC-916417C80F55">กองสัญญาว่าจ้าง</a>
+                                <a
+                                    href="https://smartoffice.mea.or.th/org-chart?uuid=A814ED5C-1AF2-4257-BAFC-916417C80F56">กองบริหารแผนงานโครงการ</a>
+                                <a
+                                    href="https://smartoffice.mea.or.th/org-chart?uuid=A814ED5C-1AF2-4257-BAFC-916417C80F57">กองประสานแผนงานโครงการ</a>
+                                <a
+                                    href="https://smartoffice.mea.or.th/org-chart?uuid=A814ED5C-1AF2-4257-BAFC-916417C80F58">กองโครงการสายไฟฟ้าเป็นสายใต้ดิน
+                                    1</a>
+                                <a
+                                    href="https://smartoffice.mea.or.th/org-chart?uuid=A814ED5C-1AF2-4257-BAFC-916417C80F59">กองโครงการสายไฟฟ้าเป็นสายใต้ดิน
+                                    2</a>
+                                <a href="https://smartoffice.mea.or.th/org-chart?uuid=A814ED5C-1AF2-4257-BAFC-916417C80F60" ">กองโครงการสายไฟฟ้าเป็นสายใต้ดิน 3</a>
+                            </div>
+                        </li>
+                        <li class=" nav-item activity-menu" style="position: relative;">
+                                    <a class="nav-link" href="#">
+                                        <i class="fas fa-tasks me-1"></i>ระบบงานภายใน
+                                    </a>
+                                    <div class="activity-submenu">
+                                        <a href="http://evserver/bookingVan/index.php?r=book/searchEmpty">ระบบจองรถ</a>
+                                        <a
+                                            href="https://smartoffice.mea.or.th/manage/meeting-room">ระบบจองห้องประชุม</a>
+                                        <a href="https://msign.mea.or.th/accounts/login">Msign</a>
+                                        <a href="https://edoc.mea.or.th/login">eDoc</a>
+                                        <a href="https://citydata.traffy.in.th/">ข้อร้องเรียน Traffy fondue</a>
+                                        <a href="http://cc-ai-rb1.meacallcenter.mea.or.th/MEAO/login">ข้อร้องเรียน
+                                            CRM</a>
+                                        <a
+                                            href="https://meacloud.sharepoint.com/:f:/s/2567509/Evo99h1sWC1EpbihRybyMe8B8ASkWPBsrqzsAsgb8ezvSA?e=4eNMqG">แบบฟอร์มเอกสาร
+                                            ฝ่ายบริหารโครงการ</a>
+                                        <a href="#">ใบสั่งงาน (E-work Order)</a>
+                                    </div>
+                        </li>
+                        <li class="nav-item activity-menu" style="position: relative;">
+                            <a class="nav-link" href="#">
+                                <i class="fas fa-project-diagram me-1"></i>งานโครงการ
+                            </a>
+                            <div class="activity-submenu">
+                                <a
+                                    href="https://meacloud-my.sharepoint.com/personal/2484912_meanet_mea_or_th/_layouts/15/onedrive.aspx?id=%2Fpersonal%2F2484912%5Fmeanet%5Fmea%5For%5Fth%2FDocuments%2F%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%A7%E0%B9%88%E0%B8%B2%E0%B8%88%E0%B9%89%E0%B8%B2%E0%B8%87%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%9A%E0%B8%A3%E0%B8%B4%E0%B8%AB%E0%B8%B2%E0%B8%A3%E0%B8%AA%E0%B8%B1%E0%B8%8D%E0%B8%8D%E0%B8%B2%2F%E0%B8%84%E0%B8%93%E0%B8%B0%20Digital%2FWebsite%20%E0%B8%81%E0%B8%9F%E0%B8%99%2FCheck%20List%20%E0%B9%80%E0%B8%AD%E0%B8%81%E0%B8%AA%E0%B8%B2%E0%B8%A3%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%9A%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%88%E0%B8%B1%E0%B8%94%E0%B8%8B%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%88%E0%B8%B1%E0%B8%94%E0%B8%88%E0%B9%89%E0%B8%B2%E0%B8%87%20%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B9%80%E0%B8%9A%E0%B8%B4%E0%B8%81%E0%B8%88%E0%B9%88%E0%B8%B2%E0%B8%A2%E0%B9%80%E0%B8%87%E0%B8%B4%E0%B8%99&ga=1">Check
+                                    list เอกสารประกอบการจัดซื้อจัดจ้างและเบิกจ่าย</a>
+                                <a
+                                    href="https://meacloud-my.sharepoint.com/personal/2484912_meanet_mea_or_th/_layouts/15/onedrive.aspx?id=%2Fpersonal%2F2484912%5Fmeanet%5Fmea%5For%5Fth%2FDocuments%2F%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%A7%E0%B9%88%E0%B8%B2%E0%B8%88%E0%B9%89%E0%B8%B2%E0%B8%87%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%9A%E0%B8%A3%E0%B8%B4%E0%B8%AB%E0%B8%B2%E0%B8%A3%E0%B8%AA%E0%B8%B1%E0%B8%8D%E0%B8%8D%E0%B8%B2%2F%E0%B8%84%E0%B8%93%E0%B8%B0%20Digital%2FWebsite%20%E0%B8%81%E0%B8%9F%E0%B8%99%2F%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%AB%E0%B8%B2%E0%B8%A3%E0%B8%B7%E0%B8%AD%E0%B8%AB%E0%B8%99%E0%B9%88%E0%B8%A7%E0%B8%A2%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B8%A0%E0%B8%B2%E0%B8%A2%E0%B8%99%E0%B8%AD%E0%B8%81%20%E0%B8%81%E0%B8%9F%E0%B8%99&ga=1 ">ข้อหารือหน่วยงานภายนอก</a>
+                                <a
+                                    href="https://meacloud-my.sharepoint.com/personal/2484912_meanet_mea_or_th/_layouts/15/onedrive.aspx?id=%2Fpersonal%2F2484912%5Fmeanet%5Fmea%5For%5Fth%2FDocuments%2F%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%A7%E0%B9%88%E0%B8%B2%E0%B8%88%E0%B9%89%E0%B8%B2%E0%B8%87%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%9A%E0%B8%A3%E0%B8%B4%E0%B8%AB%E0%B8%B2%E0%B8%A3%E0%B8%AA%E0%B8%B1%E0%B8%8D%E0%B8%8D%E0%B8%B2%2F%E0%B8%84%E0%B8%93%E0%B8%B0%20Digital%2FWebsite%20%E0%B8%81%E0%B8%9F%E0%B8%99%2F%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5%E0%B8%97%E0%B8%B1%E0%B9%88%E0%B8%A7%E0%B9%84%E0%B8%9B%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B9%80%E0%B8%81%E0%B8%B5%E0%B9%88%E0%B8%A2%E0%B8%A7%E0%B8%81%E0%B8%B1%E0%B8%9A%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%88%E0%B8%B1%E0%B8%94%E0%B8%8B%E0%B8%B7%E0%B9%89%E0%B8%AD%E0%B8%88%E0%B8%B1%E0%B8%94%E0%B8%88%E0%B9%89%E0%B8%B2%E0%B8%87%E0%B8%A0%E0%B8%B2%E0%B8%84%E0%B8%A3%E0%B8%B1%E0%B8%90&ga=1">การจัดซื้อจัดจ้างพัสดุภาครัฐ</a>
+                                <a
+                                    href="https://www.google.com/maps/d/u/0/viewer?mid=1hZbnVw06pg9BlxKOS77xmTcigyTKGec&ll=13.726677430176993%2C100.52829855708879&z=10">แผนที่โครงการฯ
+                                    ฝบค.</a>
+                                <a
+                                    href="https://www.google.com/maps/d/u/0/viewer?mid=19vgGq-gj8wlK47tMoXBlT7Gff4U&hl=en_US&ll=13.725127956901966%2C100.63339249999997&z=11">แผนที่เขตพื้นที่ความรับผิดชอบกรุงเทพมหานคร</a>
+                                <a
+                                    href="https://www.google.com/maps/d/u/0/viewer?mid=1doapjk1Xt5XpsSEKrb9uqttAwRQ&ll=13.724048573504046%2C100.63278249999993&z=11">แผนที่เขตพื้นที่ความรับผิดชอบตำรวจนครบาล</a>
+                            </div>
+                        </li>
+                        <li class="nav-item activity-menu" style="position: relative;">
+                            <a class="nav-link" href="#">
+                                <i class="fas fa-book me-1"></i>คู่มือ
+                            </a>
+                            <div class="activity-submenu">
+                                <a
+                                    href="https://meacloud.sharepoint.com/:f:/s/2567509/EgqwZldcexRPtqfVxNrJyJwBhhp8AfiyLnwTsEX6SXQISg?e=0ClXE6">คู่มือการใช้งานเว็บไซต์ฝ่ายบริหารโครงการ</a>
+                                <a
+                                    href="https://meacloud.sharepoint.com/:f:/s/2567509/EtRxeNDS3iNEm7d7I6bTEe0BCeZH7Ft8_-zd9LlhUtb9vw?e=UnuELC">คู่มืออื่นๆ</a>
+                            </div>
+                        </li>
+                        <li class="nav-item activity-menu" style="position: relative;">
+                            <a class="nav-link" href="#">
+                                <i class="fas fa-calendar-alt me-1"></i>กิจกรรม
+                            </a>
+                            <div class="activity-submenu">
+                                <a href="#">กิจกรรม 5ส.</a>
+                                <a href="#">กิจกรรม KAIZEN</a>
+                                <a href="#">กิจกรรมตามเทศกาลต่างๆ</a>
+                                <a href="#">อบรมสัมนาภายในประเทศ</a>
+                                <a href="#">อบรมสัมนาต่างประเทศ</a>
+                            </div>
+                        </li>
+                        <!--<li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <i class="fas fa-tasks me-1"></i>ระบบงานภายใน
+                            </a>
+                        </li>-->
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="ค้นหา..." aria-label="Search">
+                        <button class="btn btn-outline-light" type="submit">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Vision and Mission -->
+    <!-- Full Screen Image -->
+    <div class="fullscreen-image">
+        <img src="/img/Vision-and-Mission.jpeg" alt="Vision and Mission">
+
+        <!-- Optional Overlay Text 2 -->
+        <div class="text-overlay back-button">
+            <a href="index.html" class="btn btn-outline-light" style="color: #FF6F00; border-color: #FF6F00;">
+                <i class="fas fa-arrow-left me-2"></i>กลับ
+            </a>
+        </div>
+
+        <!-- Optional Overlay Text -->
+        <!--
+        <div class="image-overlay">
+            <h1>วิสัยทัศน์และพันธกิจ</h1>
+            <p>ฝ่ายบริหารโครงการ การไฟฟ้านครหลวง</p>
+        </div>-->
+    </div>
+
+
+
+    <!-- JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+    <script>
+        // Optional: Prevent context menu on image
+        document.querySelector('.fullscreen-image img').addEventListener('contextmenu', function (e) {
+            e.preventDefault();
+        });
+
+        // Optional: Add keyboard navigation
+        document.addEventListener('keydown', function (e) {
+            if (e.key === 'Escape') {
+                // Add functionality to close if needed
+            }
+        });
+    </script>
+</body>
+
+</html>
